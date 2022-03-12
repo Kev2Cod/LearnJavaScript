@@ -1,25 +1,10 @@
-// var kubus1 = 5;
-// var kubus2 = 9;
-
-
-// var volKubus1 = Math.pow(kubus1, 3);
-// var volKubus2= Math.pow(kubus2, 3);
-
-// var totalVolKubus = volKubus1 + volKubus2;
-
-// console.log('Total Volume adalah : ' + totalVolKubus)
-
-function jumlahDuaKubus (a, b){
-    var volumeA;
-    var volumeB;
-    var total;
-
-    volumeA = a * a * a;
-    volumeB = b * b * b;
-
-    total = volumeA + volumeB
-    return total;
+function tambah(){
+    var hasil = 0 ;
+    for(var i = 0; i < arguments.length; i++){
+        hasil += arguments[i];
+    }
+    return hasil;
 }
 
-alert(jumlahDuaKubus(5,5));
-alert(jumlahDuaKubus(5,10));
+var coba = tambah(1, 2, 3, 4);
+console.log(coba);
