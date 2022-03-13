@@ -1,5 +1,5 @@
 // Manipulasi Array
-var arr= [];
+// var arr= [];
 // 1. Menambahkan Array
 // arr = ['Kevin', 'Williams'];
 // arr[2] = 'Permana';
@@ -21,7 +21,7 @@ var arr= [];
 
 // Method pada array
 // 1. Join
-arr = ['Kevin', 'Williams', 'Permana'];
+// arr = ['Kevin', 'Williams', 'Permana'];
 // console.log(arr.join(' - '));
 
 // 2. Push Pop
@@ -32,4 +32,15 @@ arr = ['Kevin', 'Williams', 'Permana'];
 // arr.unshift('Doddy');
 // arr.shift();
 
+// 4. Splice 
+// splice(indexAwal, mau dihapusBerapa, elementBaru1, elemetBaru2,  ...)
+// arr.splice(1, 2 ,'Deku', 'Bakugo')
+
+// 5. Slice
+// slice(awal, akhir)
+var arr = ['Kevin', 'Williams', 'Permana', 'Deku', 'Bakugo'];
+
+var arr2 = arr.slice(1,3);
+
 console.log(arr.join(' - '));
+console.log(arr2.join(' - '));
