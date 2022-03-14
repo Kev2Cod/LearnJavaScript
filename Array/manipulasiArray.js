@@ -79,6 +79,20 @@
 // });
 // console.table(angka.join(' - '));
 
+// 9. filter & find
+var angka = [1,7,3,20,9,10,1,2,9];
+
+// var angka2 = angka.filter(function(x){
+//     return x > 5 ;
+// })
+
+var angka2 = angka.find(function(x){
+    return x > 5 ;
+});
+
+console.log(angka2);
+
+
 
 
 
