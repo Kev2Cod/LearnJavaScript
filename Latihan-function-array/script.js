@@ -59,6 +59,6 @@ var hapusPenumpang = function (namaPenumpang, penumpang) {
             }
         }
     }
-    return penumpang;
+    return penumpang; 
 
 }
